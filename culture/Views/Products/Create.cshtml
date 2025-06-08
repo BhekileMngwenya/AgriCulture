@@ -6,69 +6,35 @@
 
 <h1>Create Product</h1>
 
-@if (Model.FarmerProfile == null || string.IsNullOrEmpty(Model.FarmerProfile.Email))
-{
-    <h4>Create Farmer Profile</h4>
-    <hr />
-    <form asp-action="Create" method="post" enctype="multipart/form-data">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <div class="form-group">
-            <label asp-for="FarmerProfile.FullName" class="control-label"></label>
-            <input asp-for="FarmerProfile.FullName" class="form-control" />
-            <span asp-validation-for="FarmerProfile.FullName" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="FarmerProfile.Email" class="control-label"></label>
-            <input asp-for="FarmerProfile.Email" class="form-control" />
-            <span asp-validation-for="FarmerProfile.Email" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="FarmerProfile.FarmName" class="control-label"></label>
-            <input asp-for="FarmerProfile.FarmName" class="form-control" />
-            <span asp-validation-for="FarmerProfile.FarmName" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="FarmerProfile.PhoneNumber" class="control-label"></label>
-            <input asp-for="FarmerProfile.PhoneNumber" class="form-control" />
-            <span asp-validation-for="FarmerProfile.PhoneNumber" class="text-danger"></span>
-        </div>
-        <!-- Add other FarmerProfile fields as needed -->
-        <div class="form-group">
-            <input type="submit" value="Create Farmer Profile" class="btn btn-primary" />
-        </div>
-    </form>
-}
-else
-{
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
     <h4>Create Product</h4>
     <hr />
-    <form asp-action="Create" method="post" enctype="multipart/form-data">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        <input type="hidden" asp-for="Product.FarmerProfileId" />
-        <div class="form-group">
-            <label asp-for="Product.Name" class="control-label"></label>
-            <input asp-for="Product.Name" class="form-control" />
-            <span asp-validation-for="Product.Name" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Product.Category" class="control-label"></label>
-            <input asp-for="Product.Category" class="form-control" />
-            <span asp-validation-for="Product.Category" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Product.ProductionDate" class="control-label"></label>
-            <input asp-for="Product.ProductionDate" class="form-control" />
-            <span asp-validation-for="Product.ProductionDate" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label for="imageFile" class="control-label">Upload Image</label>
-            <input type="file" name="imageFile" class="form-control" />
-        </div>
-        <div class="form-group">
-            <input type="submit" value="Create Product" class="btn btn-primary" />
-        </div>
-    </form>
-}
+    <input type="hidden" asp-for="Product.FarmerProfileId" value="@Model.Product.FarmerProfileId" />
+    <div class="form-group">
+        <label asp-for="Product.Name" class="control-label"></label>
+        <input asp-for="Product.Name" class="form-control" />
+        <span asp-validation-for="Product.Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Product.Category" class="control-label"></label>
+        <input asp-for="Product.Category" class="form-control" />
+        <span asp-validation-for="Product.Category" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Product.ProductionDate" class="control-label"></label>
+        <input asp-for="Product.ProductionDate" class="form-control" />
+        <span asp-validation-for="Product.ProductionDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="imageFile" class="control-label">Upload Image</label>
+        <input type="file" name="imageFile" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create Product" class="btn btn-primary" />
+    </div>
+</form>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

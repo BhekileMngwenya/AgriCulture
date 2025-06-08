@@ -58,9 +58,15 @@ namespace culture.Controllers
                 .Take(5)
                 .ToList();
 
+            var recentProducts = productsQuery
+                .OrderByDescending(p => p.ProductionDate)
+                .Take(5)
+                .ToList();
+
             ViewData["TotalFarmers"] = totalFarmers;
             ViewData["TotalProducts"] = totalProducts;
             ViewData["RecentFarmers"] = recentFarmers;
+            ViewData["RecentProducts"] = recentProducts;
 
             return View();
         }

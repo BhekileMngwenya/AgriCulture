@@ -31,6 +31,35 @@
 </section>
 
 <section>
+    <h2>Recent Products</h2>
+    @{
+        var recentProducts = ViewData["RecentProducts"] as List<culture.Models.Product> ?? new List<culture.Models.Product>();
+    }
+    <div class="row">
+        @foreach (var product in recentProducts)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.ProductionDate.ToString("d")</p>
+                        <a href="/Products/Edit/@product.Id" class="btn btn-sm btn-primary me-1">Edit</a>
+                        <a href="/Products/Details/@product.Id" class="btn btn-sm btn-info me-1">Details</a>
+                        <form asp-action="Delete" asp-route-id="@product.Id" method="post" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this product?');">
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section>
     <h2>Search and Filter</h2>
     <form method="get" asp-controller="EmployeeDashboard" asp-action="Index" class="mb-3">
         <div class="row g-2">

@@ -604,3 +604,4 @@ C:\Users\USER\OneDrive\Desktop\School\2025\Enterprise Application EAPD7111\cultu
 C:\Users\USER\OneDrive\Desktop\School\2025\Enterprise Application EAPD7111\culture2\culture2\culture\bin\Debug\net8.0\Azure.Storage.Blobs.dll
 C:\Users\USER\OneDrive\Desktop\School\2025\Enterprise Application EAPD7111\culture2\culture2\culture\bin\Debug\net8.0\Azure.Storage.Common.dll
 C:\Users\USER\OneDrive\Desktop\School\2025\Enterprise Application EAPD7111\culture2\culture2\culture\bin\Debug\net8.0\System.IO.Hashing.dll
+C:\Users\USER\OneDrive\Desktop\School\2025\Enterprise Application EAPD7111\culture2\culture2\culture\obj\Debug\net8.0\culture.sourcelink.json
