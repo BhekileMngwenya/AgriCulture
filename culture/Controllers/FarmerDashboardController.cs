@@ -31,6 +31,8 @@ namespace culture.Controllers
                 var productsQuery = _context.Products
                     .Where(p => p.FarmerProfileId == farmerProfile.Id);
 
+                ViewData["FarmerProfileId"] = farmerProfile.Id;
+
                 if (!string.IsNullOrEmpty(productType))
                 {
                     productsQuery = productsQuery.Where(p => p.Category == productType);

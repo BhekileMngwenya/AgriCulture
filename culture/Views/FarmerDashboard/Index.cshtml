@@ -42,6 +42,11 @@
                     <div class="card-body">
                         <h5 class="card-title">@product.Name</h5>
                         <p class="card-text">@product.ProductionDate.ToString("d")</p>
+                        <a href="/Products/Edit/@product.Id" class="btn btn-sm btn-primary me-1">Edit</a>
+                        <a href="/Products/Details/@product.Id" class="btn btn-sm btn-info me-1">Details</a>
+                        <form asp-action="Delete" asp-route-id="@product.Id" method="post" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this product?');">
+                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -54,7 +59,7 @@
     <p>Name: @farmerName</p>
     <p>Location: <!-- TODO: Add location --></p>
     <p>Contact info: <!-- TODO: Add contact info --></p>
-    <a href="/FarmerProfiles/Edit/@User.FindFirst("sub")?.Value" class="btn btn-secondary">Edit My Profile</a>
+    <a href="/FarmerProfiles/Edit/@ViewData["FarmerProfileId"]" class="btn btn-secondary">Edit My Profile</a>
 </section>
 
 <section>

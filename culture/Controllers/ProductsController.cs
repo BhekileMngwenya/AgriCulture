@@ -60,17 +60,14 @@ namespace culture.Controllers
             var farmerProfile = _context.Farmers.FirstOrDefault(f => f.Email == farmerEmail);
             var viewModel = new Models.ProductWithFarmerProfileViewModel();
 
-            // Get all farmer emails for dropdown
-            var farmerEmails = _context.Farmers.Select(f => new { Value = f.Email, Text = f.Email }).ToList();
-            ViewData["FarmerEmails"] = new SelectList(farmerEmails, "Value", "Text");
-
-            if (farmerProfile == null)
+            if (farmerProfile != null)
             {
-                viewModel.FarmerProfile = new Models.FarmerProfile { Email = farmerEmail };
+                viewModel.Product = new Models.Product { FarmerProfileId = farmerProfile.Id };
             }
             else
             {
-                viewModel.Product = new Models.Product { FarmerProfileId = farmerProfile.Id };
+                // Handle case when farmerProfile is null, e.g., redirect or error
+                return RedirectToAction("Create", "FarmerProfiles");
             }
             return View(viewModel);
         }
@@ -89,27 +86,16 @@ namespace culture.Controllers
 
                 if (farmerProfile == null)
                 {
-                    // Validate required FarmerProfile fields
-                    if (viewModel.FarmerProfile == null ||
-                        string.IsNullOrEmpty(viewModel.FarmerProfile.FarmName) ||
-                        string.IsNullOrEmpty(viewModel.FarmerProfile.FullName) ||
-                        string.IsNullOrEmpty(viewModel.FarmerProfile.Email))
-                    {
-                        ModelState.AddModelError("", "Please fill in all required Farmer Profile fields.");
-                        // Repopulate emails for dropdown
-                        var farmerEmails = _context.Farmers.Select(f => new { Value = f.Email, Text = f.Email }).ToList();
-                        ViewData["FarmerEmails"] = new SelectList(farmerEmails, "Value", "Text");
-                        return View(viewModel);
-                    }
-
-                    farmerProfile = viewModel.FarmerProfile;
-                    farmerProfile.Email = farmerEmail; // Ensure email matches logged-in user
-                    _context.Farmers.Add(farmerProfile);
-                    await _context.SaveChangesAsync();
+                    // FarmerProfile must exist to create product
+                    ModelState.AddModelError("", "Farmer profile not found. Please create a farmer profile first.");
+                    return View(viewModel);
                 }
 
-                // Assign FarmerProfileId to product
                 var product = viewModel.Product;
+                if (product == null)
+                {
+                    product = new Models.Product();
+                }
                 product.FarmerProfileId = farmerProfile.Id;
 
                 if (imageFile != null && imageFile.Length > 0)
@@ -117,6 +103,11 @@ namespace culture.Controllers
                     using var stream = imageFile.OpenReadStream();
                     var fileName = Path.GetFileName(imageFile.FileName);
                     product.ImageUrl = await _blobService.UploadFileAsync(stream, fileName);
+                }
+                else
+                {
+                    // Set default placeholder image URL if no image uploaded
+                    product.ImageUrl = "/images/default-product-image.jpg";
                 }
 
                 _context.Products.Add(product);
@@ -153,14 +144,14 @@ namespace culture.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Category,ProductionDate")] Product product, IFormFile imageFile)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Category,ProductionDate,ImageUrl,FarmerProfileId")] Product product, IFormFile imageFile)
         {
             if (id != product.Id)
             {
                 return NotFound();
             }
 
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 try
                 {
@@ -179,6 +170,10 @@ namespace culture.Controllers
                         using var stream = imageFile.OpenReadStream();
                         var fileName = Path.GetFileName(imageFile.FileName);
                         product.ImageUrl = await _blobService.UploadFileAsync(stream, fileName);
+                    }
+                    else if (string.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        product.ImageUrl = "/images/default-product-image.jpg";
                     }
 
                     _context.Update(product);

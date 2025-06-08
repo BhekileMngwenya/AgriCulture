@@ -24,9 +24,9 @@ namespace culture.Models
         [ForeignKey("FarmerProfile")]
         public int FarmerProfileId { get; set; }
 
-        public FarmerProfile FarmerProfile { get; set; }
+        public FarmerProfile? FarmerProfile { get; set; }
 
         [Display(Name = "Image URL")]
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
     }
 }
