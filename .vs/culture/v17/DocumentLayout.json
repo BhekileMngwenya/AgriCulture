@@ -1,0 +1,411 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\controllers\\farmerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\controllers\\farmerprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\views\\farmerprofiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\views\\farmerprofiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\data\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\models\\farmerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\models\\farmerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\culture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\culture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\data\\migrations\\20250512105514_updateidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\data\\migrations\\20250512105514_updateidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\data\\migrations\\20250512104628_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\data\\migrations\\20250512104628_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\data\\migrations\\20250512092237_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\data\\migrations\\20250512092237_addidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|c:\\users\\user\\onedrive\\desktop\\school\\2025\\enterprise application eapd7111\\culture2\\culture2\\culture\\data\\migrations\\20250512090704_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE4E3B10-3C89-4D68-AEE4-C49B503C841E}|culture\\culture.csproj|solutionrelative:culture\\data\\migrations\\20250512090704_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "culture\\Views\\Products\\Create.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "culture\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T13:12:24.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "culture\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "culture\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T13:11:57.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "culture\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "culture\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAYwG0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-06T13:11:57.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "culture\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "culture\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABkAAADAZmZmZuYswCMAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T13:11:57.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAGYAAAAAZmZmZuYUwKAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "culture\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T13:11:57.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250512105514_UpdateIdentitySchema.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512105514_UpdateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "culture\\Data\\Migrations\\20250512105514_UpdateIdentitySchema.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512105514_UpdateIdentitySchema.cs",
+              "RelativeToolTip": "culture\\Data\\Migrations\\20250512105514_UpdateIdentitySchema.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "culture\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "culture\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAwwOMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\FarmerProfiles\\Index.cshtml",
+              "RelativeDocumentMoniker": "culture\\Views\\FarmerProfiles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\FarmerProfiles\\Index.cshtml",
+              "RelativeToolTip": "culture\\Views\\FarmerProfiles\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T13:11:57.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "culture\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "culture\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T13:11:57.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250512104628_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512104628_InitialMigration.cs",
+              "RelativeDocumentMoniker": "culture\\Data\\Migrations\\20250512104628_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512104628_InitialMigration.cs",
+              "RelativeToolTip": "culture\\Data\\Migrations\\20250512104628_InitialMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "culture\\Data\\ApplicationDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "culture\\Data\\ApplicationDbContextFactory.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAiwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "culture\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-06T13:11:57.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "culture\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "culture\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-06T13:11:57.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "culture.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\culture.csproj",
+              "RelativeDocumentMoniker": "culture\\culture.csproj",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\culture.csproj",
+              "RelativeToolTip": "culture\\culture.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-06T13:11:57.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FarmerProfilesController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Controllers\\FarmerProfilesController.cs",
+              "RelativeDocumentMoniker": "culture\\Controllers\\FarmerProfilesController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Controllers\\FarmerProfilesController.cs",
+              "RelativeToolTip": "culture\\Controllers\\FarmerProfilesController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAYwF8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250512092237_AddIdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512092237_AddIdentityTables.cs",
+              "RelativeDocumentMoniker": "culture\\Data\\Migrations\\20250512092237_AddIdentityTables.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512092237_AddIdentityTables.cs",
+              "RelativeToolTip": "culture\\Data\\Migrations\\20250512092237_AddIdentityTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250512090704_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512090704_InitialCreate.cs",
+              "RelativeDocumentMoniker": "culture\\Data\\Migrations\\20250512090704_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\Migrations\\20250512090704_InitialCreate.cs",
+              "RelativeToolTip": "culture\\Data\\Migrations\\20250512090704_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\appsettings.json",
+              "RelativeDocumentMoniker": "culture\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\appsettings.json",
+              "RelativeToolTip": "culture\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T13:11:57.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "culture\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "culture\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "culture\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Models\\Product.cs",
+              "RelativeToolTip": "culture\\Models\\Product.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FarmerProfile.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Models\\FarmerProfile.cs",
+              "RelativeDocumentMoniker": "culture\\Models\\FarmerProfile.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Models\\FarmerProfile.cs",
+              "RelativeToolTip": "culture\\Models\\FarmerProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Program.cs",
+              "RelativeDocumentMoniker": "culture\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\School\\2025\\Enterprise Application EAPD7111\\culture2\\culture2\\culture\\Program.cs",
+              "RelativeToolTip": "culture\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T13:11:57.926Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

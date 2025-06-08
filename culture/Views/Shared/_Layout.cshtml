@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - culture</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/culture.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">culture</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        @if (User.IsInRole("Employee"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="FarmerProfiles" asp-action="Index">Manage Farmers</a>
+                            </li>
+                        }
+
+                        @if (User.IsInRole("Farmer"))
+                        {
+                          
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-controller="Products" asp-action="Index">Agri-culture</a>
+                            </li>
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="bg-dark text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <p>Email: St10218897@rcconnect.edu.za</p>
+                    <p>Phone: 081 085 9459</p>
+                    <p>Address: Block BB soshanguve 0152</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a class="text-light" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a class="text-light" asp-area="" asp-controller="Home" asp-action="Terms">Terms &amp; Conditions</a></li>
+                        <li><a class="text-light" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a></li>
+                        <li><a class="text-light" asp-area="" asp-controller="Home" asp-action="ReportIssue">Report an Issue</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="https://facebook.com" target="_blank" class="text-light me-2">Facebook</a>
+                    <a href="https://twitter.com" target="_blank" class="text-light me-2">Twitter</a>
+                    <a href="https://instagram.com" target="_blank" class="text-light">Instagram</a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                &copy; 2025 Bhekile Mngwena - Culture
+            </div>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

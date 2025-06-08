@@ -1,0 +1,66 @@
+@{
+    ViewData["Title"] = "Farmer Dashboard";
+    var farmerName = ViewData["FarmerName"] as string;
+    var currentDateTime = ViewData["CurrentDateTime"] as string;
+    var totalProducts = ViewData["TotalProducts"] ?? 0;
+    var lastProductName = ViewData["LastProductName"] ?? "N/A";
+    var lastProductDate = ViewData["LastProductDate"] ?? "N/A";
+    var recentProducts = ViewData["RecentProducts"] as List<culture.Models.Product> ?? new List<culture.Models.Product>();
+}
+
+<h1>Welcome back, @farmerName!</h1>
+<p>@currentDateTime</p>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<section>
+    <h2>My Products Summary</h2>
+    <p>Total number of products: @totalProducts</p>
+    <p>Last product added: @lastProductName - @lastProductDate</p>
+</section>
+
+<section>
+    <a href="/Products/Create" class="btn btn-primary btn-lg">+ Add New Product</a>
+</section>
+
+<section>
+    <h2>Recent Products</h2>
+    <div class="row">
+        @foreach (var product in recentProducts)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" />
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">@product.ProductionDate.ToString("d")</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<section>
+    <h2>Profile Info</h2>
+    <p>Name: @farmerName</p>
+    <p>Location: <!-- TODO: Add location --></p>
+    <p>Contact info: <!-- TODO: Add contact info --></p>
+    <a href="/FarmerProfiles/Edit/@User.FindFirst("sub")?.Value" class="btn btn-secondary">Edit My Profile</a>
+</section>
+
+<section>
+    <h2>Tips</h2>
+    <ul>
+        <li>Water early in the morning to save water.</li>
+        <!-- TODO: Add more tips -->
+    </ul>
+</section>

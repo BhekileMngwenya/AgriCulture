@@ -1,0 +1,109 @@
+/* Base styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2fff5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1, h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+/* Container and layout */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+/* Button styles */
+a.button, input[type="submit"], button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+    a.button:hover, input[type="submit"]:hover, button:hover {
+        background-color: #388e3c;
+    }
+
+/* Link as button */
+a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px 10px;
+    text-align: left;
+    border-bottom: 1px solid #c8e6c9;
+}
+
+thead {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+
+/* Action buttons in a row */
+.action-buttons a {
+    margin-right: 8px;
+}
+
+/* Footer spacing fix */
+footer {
+    margin-top: 40px;
+}
+
+/* Responsive fix */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    td {
+        padding-left: 50%;
+        position: relative;
+    }
+
+        td::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            font-weight: bold;
+        }
+}

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<culture.Models.Product>
+
+@{
+    ViewData["Title"] = "Manage Products";
+}
+
+<div class="container mt-4">
+    <h2 class="text-success mb-4">Manage Products</h2>
+
+    <div class="mb-3">
+        <a asp-action="Create" class="btn btn-success">➕ Add New Product</a>
+    </div>
+
+    <table class="table table-striped table-bordered shadow-sm">
+        <thead class="table-success">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Name)</th>
+                <th>@Html.DisplayNameFor(model => model.Category)</th>
+                <th>@Html.DisplayNameFor(model => model.ProductionDate)</th>
+                <th>@Html.DisplayNameFor(model => model.FarmerProfile)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Category)</td>
+                    <td>@Html.DisplayFor(modelItem => item.ProductionDate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.FarmerProfile.Email)</td>
+                   
+                    <td class="action-buttons">
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="button"> Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.Id" class="button"> Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="button"> Delete</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

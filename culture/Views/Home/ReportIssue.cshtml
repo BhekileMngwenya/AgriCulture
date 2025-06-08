@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "Report an Issue";
+}
+
+<h2>Report an Issue</h2>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-info">@ViewBag.Message</div>
+}
+
+<form method="post" asp-controller="Home" asp-action="ReportIssue">
+    <div class="mb-3">
+        <label for="issueDescription" class="form-label">Describe the issue</label>
+        <textarea class="form-control" id="issueDescription" name="issueDescription" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Issue</button>
+</form>

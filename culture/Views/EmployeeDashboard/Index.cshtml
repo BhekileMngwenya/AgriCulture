@@ -1,0 +1,55 @@
+@{
+    ViewData["Title"] = "Employee Dashboard";
+    var employeeName = ViewData["EmployeeName"] as string;
+    var currentDateTime = ViewData["CurrentDateTime"] as string;
+    var totalFarmers = ViewData["TotalFarmers"] ?? 0;
+    var totalProducts = ViewData["TotalProducts"] ?? 0;
+    var recentFarmers = ViewData["RecentFarmers"] as List<culture.Models.FarmerProfile> ?? new List<culture.Models.FarmerProfile>();
+}
+
+<h1>Hello, @employeeName!</h1>
+<p>@currentDateTime</p>
+
+<section>
+    <a asp-controller="FarmerProfiles" asp-action="Create" class="btn btn-primary btn-lg">+ Add New Farmer</a>
+</section>
+
+<section>
+    <h2>Total Farmers &amp; Products</h2>
+    <p>Number of farmers in the system: @totalFarmers</p>
+    <p>Total number of products: @totalProducts</p>
+</section>
+
+<section>
+    <h2>Recent Farmers</h2>
+    <ul>
+        @foreach (var farmer in recentFarmers)
+        {
+            <li>@farmer.FullName - Added recently</li>
+        }
+    </ul>
+</section>
+
+<section>
+    <h2>Search and Filter</h2>
+    <form method="get" asp-controller="EmployeeDashboard" asp-action="Index" class="mb-3">
+        <div class="row g-2">
+            <div class="col-md-6">
+                <input type="text" name="keyword" class="form-control" placeholder="Search by name, email, or product" autocomplete="off" id="searchKeyword" />
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Search</button>
+    </form>
+</section>
+
+@section Scripts {
+    <script>
+        // Simple autocomplete example for keyword search
+        const searchInput = document.getElementById('searchKeyword');
+        searchInput.addEventListener('input', function () {
+            // TODO: Implement AJAX call to get autocomplete suggestions
+            // For now, this is a placeholder
+            console.log('User typed:', this.value);
+        });
+    </script>
+}
